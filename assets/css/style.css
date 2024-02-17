@@ -5,12 +5,26 @@
     box-sizing: border-box;
 }
 
-.section_area {
-    max-width: 1320px;
-    margin: 0 auto;
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
 }
 
+.section_area {
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+/* hero area start  */
 .hero_area {
     padding: 177px 0;
     text-align: center;
@@ -19,20 +33,68 @@
     background-size: cover;
     background-position: center;
     margin-top: 50px;
+    border-radius: 16px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    position: relative;
 }
 
-.section_area h3 {
-    margin: 0;
+.hero_area-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(7, 2, 17);
+    background: linear-gradient(180deg, rgba(7, 2, 17, 1) 0%, rgba(7, 2, 17, 0) 100%);
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+
+.hero_area-contents {
+    position: relative;
+    z-index: 20;
+}
+
+.section_contents h3 {
     font-family: "Merriweather", serif;
     font-weight: 400;
     color: #fff;
     font-size: 32px;
 }
 
-.section_area h1 {
-    margin: 0;
+.section_contents h1 {
     font-family: "Merriweather", serif;
     font-weight: 400;
     color: #fff;
     font-size: 72px;
 }
+
+/* hero area end  */
+/* categories area start  */
+.categories_area {
+    text-align: center;
+    padding: 120px 15px;
+}
+
+.categories_area .inner_contents h2 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 88px;
+    color: #ff2020;
+}
+
+.categories_area .inner_contents h4 {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #ff2020;
+    margin: 48px 0 16px;
+}
+
+.categories_area .inner_contents h3 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: #070211;
+    margin-bottom: 48px;
+
+    /* categories area end  */
