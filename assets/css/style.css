@@ -131,6 +131,7 @@ a {
 .banner_area {
   padding: 68px 15px;
   display: flex;
+  flex-wrap: wrap;
   gap: 40px;
   justify-content: center;
   align-items: center;
@@ -211,6 +212,14 @@ a {
   background-color: #ff2020;
   color: #ffffff;
   margin-top: 48px;
+  text-transform: uppercase;
+  border: 2px solid transparent;
+  transition: all 0.3s ease-in;
+}
+.deadline_area-contents .a2n_btn:hover {
+  border: 2px solid #ff2020;
+  background: transparent;
+  color: #ff2020;
 }
 
 /* deadline area end  */
@@ -283,6 +292,7 @@ a {
   background-size: contain;
   background-position: bottom;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
 }
@@ -302,3 +312,38 @@ a {
 }
 
 /* holidays sale area end  */
+/* portfolio area start   */
+.porfolio_area {
+  padding: 138px 0 120px;
+}
+.porfolio_area-contents h2 {
+  font-size: 48px;
+  color: #070211;
+  margin: 16px 0 22px;
+}
+.porfolio_area-contents p {
+  max-width: 896px;
+}
+.porfolio-image_container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 48px;
+}
+.portfolio_img {
+  overflow: hidden;
+}
+.portfolio_img img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  transition: all 0.3s ease-in-out 0s;
+  cursor: pointer;
+}
+.portfolio_img img:hover {
+  transform: scale(1.1) rotate(1deg);
+}
+
+/* portfolio area end   */
