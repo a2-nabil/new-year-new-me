@@ -19,6 +19,9 @@ p {
 a {
   text-decoration: none;
 }
+ul {
+  list-style: none;
+}
 
 .section_area {
   width: 100%;
@@ -285,7 +288,10 @@ a {
   color: #070211;
   margin: 16px 0 28px;
 }
-
+.holidays_area-contents p {
+  max-width: 1068px;
+  margin: 0 auto;
+}
 .holidays-img_container {
   background-image: url(../images/Rectangle\ 2.png);
   background-repeat: no-repeat;
@@ -404,3 +410,40 @@ a {
   background: #070211;
 }
 /* subscribe area end   */
+/* footer area start   */
+.footer_area {
+  background: #070211;
+  padding: 120px 15px;
+}
+.footer_area .f_container {
+  width: 100%;
+  max-width: 1320px;
+  margin: 0 auto;
+}
+.footer_area hr {
+  margin: 50px 0 48px;
+}
+.footer_area .f_text {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 40px;
+  color: #ffffff;
+}
+.footer_area .f_top_bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.f_text_two ul li {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.footer_area .f_icon-box {
+  text-align: center;
+}
+.footer_area .f_icon-box a {
+  margin: 0 24px;
+}
+/* footer area end   */
