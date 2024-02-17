@@ -41,7 +41,7 @@ a {
   font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 24px;
-  color: #ff2020;
+  color: #ff0000;
 }
 
 .section_desc {
@@ -54,7 +54,7 @@ a {
 }
 
 .f_color {
-  color: #ff2020 !important;
+  color: #ff0000 !important;
 }
 
 /* hero area start  */
@@ -107,14 +107,14 @@ a {
   font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 88px;
-  color: #ff2020;
+  color: #ff0000;
 }
 
 .categories_area .inner_contents h4 {
   font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 24px;
-  color: #ff2020;
+  color: #ff0000;
   margin: 48px 0 16px;
 }
 
@@ -209,7 +209,7 @@ a {
   font-size: 20px;
   padding: 16px 32px;
   border-radius: 8px;
-  background-color: #ff2020;
+  background-color: #ff0000;
   color: #ffffff;
   margin-top: 48px;
   text-transform: uppercase;
@@ -217,9 +217,9 @@ a {
   transition: all 0.3s ease-in;
 }
 .deadline_area-contents .a2n_btn:hover {
-  border: 2px solid #ff2020;
+  border: 2px solid #ff0000;
   background: transparent;
-  color: #ff2020;
+  color: #ff0000;
 }
 
 /* deadline area end  */
@@ -251,7 +251,7 @@ a {
 .coming-soon_area .c_center {
   padding: 50px;
   border-radius: 50%;
-  border: 15px solid #ff2020;
+  border: 15px solid #ff0000;
 }
 
 .coming-soon_area .c_end {
@@ -346,4 +346,61 @@ a {
   transform: scale(1.1) rotate(1deg);
 }
 
-/* portfolio area end   */
+/* subscribe area start   */
+.subscribe_area {
+  padding: 80px 15px;
+  background: #fff2f2;
+  text-align: center;
+  margin-bottom: 120px;
+}
+.subscribe_area-contents h2 {
+  font-size: 48px;
+  color: #070211;
+  margin: 40px 0 22px;
+}
+.subscribe_area-contents p {
+  max-width: 896px;
+  margin: 0 auto;
+}
+.subscribe_form {
+  margin-top: 48px !important;
+  width: 100%;
+  max-width: 648px;
+  height: 72px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  background: #fff;
+  overflow: hidden;
+}
+.subscribe_form input[type="text"] {
+  width: -webkit-fill-available;
+  height: 100%;
+  border: none;
+  outline: none;
+  padding: 0 33px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #070211;
+}
+.subscribe_form input[type="text"]::placeholder {
+  opacity: 0.3;
+}
+.subscribe_form input[type="submit"] {
+  background: #ff0000;
+  padding: 24px 56px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.subscribe_form input[type="submit"]:hover {
+  background: #070211;
+}
+/* subscribe area end   */
