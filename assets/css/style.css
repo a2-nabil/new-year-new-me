@@ -1,8 +1,8 @@
 /* global css here  */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 h1,
@@ -12,230 +12,293 @@ h4,
 h5,
 h6,
 p {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .section_area {
-    width: 100%;
-    max-width: 1320px;
-    margin: 0 auto;
-    padding: 0 15px;
-    position: relative;
-    overflow: hidden;
-    border-radius: 16px;
+  width: 100%;
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 15px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+.section_title {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  color: #fff;
+  font-size: 72px;
+}
+
+.sectiom_sub-title {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: #ff2020;
+}
+
+.section_desc {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  color: #070211;
+  opacity: 0.6;
 }
 
 .f_color {
-    color: #ff2020 !important;
+  color: #ff2020 !important;
 }
 
 /* hero area start  */
 .hero_area {
-    padding: 177px 0;
-    text-align: center;
-    background-image: url(../images/Banner\ Image.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin-top: 50px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 177px 0;
+  text-align: center;
+  background-image: url(../images/Banner\ Image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 50px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .hero_area-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: rgb(7, 2, 17);
-    background: linear-gradient(180deg, rgba(7, 2, 17, 1) 0%, rgba(7, 2, 17, 0) 100%);
-    width: 100%;
-    height: 100%;
-    z-index: 10;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgb(7, 2, 17);
+  background: linear-gradient(
+    180deg,
+    rgba(7, 2, 17, 1) 0%,
+    rgba(7, 2, 17, 0) 100%
+  );
+  width: 100%;
+  height: 100%;
+  z-index: 10;
 }
 
 .section_contents {
-    position: relative;
-    z-index: 20;
+  position: relative;
+  z-index: 20;
 }
 
-.section_contents h3 {
-    font-family: "Merriweather", serif;
-    font-weight: 400;
-    color: #fff;
-    font-size: 32px;
-}
-
-.section_title {
-    font-family: "Merriweather", serif;
-    font-weight: 900;
-    color: #fff;
-    font-size: 72px;
+.hero_area h3 {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  color: #fff;
+  font-size: 32px;
 }
 
 /* hero area end  */
 /* categories area start  */
 .categories_area {
-    text-align: center;
-    padding: 120px 15px;
+  text-align: center;
+  padding: 120px 15px;
 }
 
 .categories_area .inner_contents h2 {
-    font-family: "Inter", sans-serif;
-    font-weight: 700;
-    font-size: 88px;
-    color: #ff2020;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 88px;
+  color: #ff2020;
 }
 
 .categories_area .inner_contents h4 {
-    font-family: "Inter", sans-serif;
-    font-weight: 500;
-    font-size: 24px;
-    color: #ff2020;
-    margin: 48px 0 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: #ff2020;
+  margin: 48px 0 16px;
 }
 
 .categories_area .inner_contents h3 {
-    font-family: "Inter", sans-serif;
-    font-weight: 700;
-    font-size: 48px;
-    color: #070211;
-    margin-bottom: 48px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  color: #070211;
+  margin-bottom: 48px;
 }
 
 /* categories area end  */
 /* banner area start  */
 .banner_area {
-    padding: 68px 15px;
-    display: flex;
-    gap: 40px;
-    justify-content: center;
-    align-items: center;
-    background-image: url(../images/Vectorrr.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    border-radius: 16px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 68px 15px;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/Vectorrr.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .banner_area-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: rgb(7, 2, 17);
-    background: linear-gradient(90deg, rgba(7, 2, 17, 1) 0%, rgba(7, 2, 17, 0) 100%);
-    width: 100%;
-    height: 100%;
-    z-index: 10;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgb(7, 2, 17);
+  background: linear-gradient(
+    90deg,
+    rgba(7, 2, 17, 1) 0%,
+    rgba(7, 2, 17, 0) 100%
+  );
+  width: 100%;
+  height: 100%;
+  z-index: 10;
 }
 
 .banner_area-contents h2.section_title {
-    font-size: 64px;
+  font-size: 64px;
 }
 
 .banner_area-contents p {
-    font-family: "Inter", sans-serif;
-    font-size: 18px;
-    line-height: 30px;
-    font-weight: 400;
-    color: #FFFFFF;
-    opacity: 0.8;
-    max-width: 697px;
-    margin: 24px 0 48px;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #ffffff;
+  opacity: 0.8;
+  max-width: 697px;
+  margin: 24px 0 48px;
 }
 
 .banner_area-contents a {
-    font-family: "Inter", sans-serif;
-    font-size: 20px;
-    font-weight: 700;
-    color: #FFFFFF;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
 }
 
 /* banner area end  */
 /* deadline area start  */
 .deadline_area {
-    margin-top: 120px;
-    padding: 100px 15px 110px;
-    text-align: center;
-    background: rgb(255, 0, 0);
-    background: linear-gradient(180deg, rgba(255, 0, 0, 0.1) 0%, rgba(255, 0, 0, 0) 100%);
+  margin-top: 120px;
+  padding: 100px 15px 110px;
+  text-align: center;
+  background: rgb(255, 0, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
 }
 
 .deadline_area-contents h2 {
-    font-family: "Inter", sans-serif;
-    font-weight: 700;
-    font-size: 32px;
-    color: #070211;
-    line-height: 56px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  color: #070211;
+  line-height: 56px;
 }
 
 .deadline_area-contents .a2n_btn {
-    display: inline-block;
-    font-family: "Inter", sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    padding: 16px 32px;
-    border-radius: 8px;
-    background-color: #ff2020;
-    color: #FFFFFF;
-    margin-top: 48px;
+  display: inline-block;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 16px 32px;
+  border-radius: 8px;
+  background-color: #ff2020;
+  color: #ffffff;
+  margin-top: 48px;
 }
 
 /* deadline area end  */
 /* coming soon area start  */
 .coming-soon_area {
-    padding: 120px 0px;
-    display: flex;
-    align-items: center;
-    gap: 70px;
-    justify-content: space-between;
-}
-
-.coming-soon_area .c_start h3 {
-    font-family: "Inter", sans-serif;
-    font-weight: 500;
-    font-size: 24px;
+  padding: 120px 0px;
+  display: flex;
+  align-items: center;
+  gap: 70px;
+  justify-content: space-between;
 }
 
 .coming-soon_area .c_start h2 {
-    color: #070211;
-    font-size: 48px;
-    margin: 16px 0 22px;
+  color: #070211;
+  font-size: 48px;
+  margin: 16px 0 22px;
 }
 
 .coming-soon_area p {
-    font-family: "Inter", sans-serif;
-    font-size: 20px;
-    line-height: 32px;
-    font-weight: 400;
-    color: #070211;
-    opacity: 0.6;
-    max-width: 393px;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 400;
+  color: #070211;
+  opacity: 0.6;
+  max-width: 393px;
 }
 
 .coming-soon_area .c_center {
-    padding: 50px;
-    border-radius: 50%;
-    border: 15px solid #ff2020;
+  padding: 50px;
+  border-radius: 50%;
+  border: 15px solid #ff2020;
 }
 
 .coming-soon_area .c_end {
-    margin-left: 48px;
+  margin-left: 48px;
 }
 
 .coming-soon_area .c_end h3 {
-    font-family: "Inter", sans-serif;
-    font-weight: 700;
-    font-size: 48px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
 }
 
 .coming-soon_area .c_end p {
-    margin: 16px 0 43px;
-    max-width: 276px;
+  margin: 16px 0 43px;
+  max-width: 276px;
 }
 
 /* coming soon area end  */
+/* holidays sale area start  */
+
+.holidays_area-contents {
+  margin-bottom: 64px;
+  text-align: center;
+}
+
+.holidays_area-contents h3 {
+  color: #070211;
+}
+
+.holidays_area-contents h2 {
+  color: #070211;
+  margin: 16px 0 28px;
+}
+
+.holidays-img_container {
+  background-image: url(../images/Rectangle\ 2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.holidays-img_container .h_end {
+  position: relative;
+  margin-top: -210px;
+  z-index: -1;
+}
+
+.holidays-img_container .h_end img:last-child {
+  position: absolute;
+  top: 50%;
+  left: -40%;
+  z-index: 1;
+  transform: translateY(-50%);
+}
+
+/* holidays sale area end  */
